@@ -3,7 +3,7 @@ BOWSER_COMMON_FOLDER := device/amazon/bowser-common
 
 $(call inherit-product, $(COMMON_FOLDER)/common.mk)
 
-DEVICE_PACKAGE_OVERLAYS += $(BOWSER_COMMON_FOLDER)/overlay/aosp
+DEVICE_PACKAGE_OVERLAYS += $(BOWSER_COMMON_FOLDER)/overlay/cos
 
 # Hardware HALs
 PRODUCT_PACKAGES += \
